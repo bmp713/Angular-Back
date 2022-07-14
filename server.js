@@ -52,6 +52,25 @@ app.get("/read/:id", async (req, res) => {
     });
 }); 
 
+
+// Read product by name 
+app.get("/readname/:name", async (req, res) => {
+    console.log("req.body =>", req.body);
+
+    fs.readFile('./products.json', 'utf8', (err, data) => {
+        if(err) console.error(err);
+
+        data = JSON.parse(data);
+
+        let product = data.find( item => {
+            return item.name === req.params.name;
+        });
+
+        res.send( product );
+    });
+}); 
+
+
 // Update product
 app.post("/update/:id", async (req, res) => {
     console.log("POST req.body =>", req.body);
