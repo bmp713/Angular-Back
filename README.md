@@ -9,8 +9,8 @@ Angular and Node Express
 
 INSTRUCTIONS
 
-1) To run App clone Paige-Front and Paige-Back repositories into separate directories
-https://github.com/bmp713/Paige-Front.git
+1) To run App clone Paige-Front and Paige-Back repositories into separate directories<br>
+https://github.com/bmp713/Paige-Front.git<br>
 https://github.com/bmp713/Paige-Back.git
 
 2) cd into root directory for both
@@ -23,6 +23,7 @@ https://github.com/bmp713/Paige-Back.git
 
 Paige front end should open in browser displaying all products
 
+<br>
 FEATURES
 
 - All content is mobile responsive for all devices
@@ -35,3 +36,4 @@ FEATURES
 - Edit product routes to Product Details page where product name, type, color, price, and description can be updated
 - Product page has form validation for each field character length, and if filled in
 - Delete product button was moved to product details to prevent accidental deletes
+
