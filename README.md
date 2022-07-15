@@ -1,5 +1,5 @@
 
-PAIGE PRODUCTS DASHBOARD
+PRODUCTS DASHBOARD
 
 Description:
 Dashboard for editing and deleting product information
